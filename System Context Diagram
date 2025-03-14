@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Page-1" id="VHbOS2MVVl6ywwW-C1w6">
-    <mxGraphModel>
+    <mxGraphModel dx="1364" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xPJGD_dAy60tWsDDAJ8i-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPJGD_dAy60tWsDDAJ8i-7" target="xPJGD_dAy60tWsDDAJ8i-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPJGD_dAy60tWsDDAJ8i-7" value="Data Sources&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Network Traffic Data&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;Capturing Raw data packet from Networks from HTTP, HTTPS, TCP, UDP, and other Protocols&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;System Log Data&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Check connection attempts and rejects from firewall&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Check HTTP/HTTPS request patterns&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Check for load balancer logs and its ditrubution of traffic&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Infrastructure Metrics&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Check CPU and Memory usage on key network devices and servers&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Check the activity of active network connections&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Queue statistics from routers and switches&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingLeft=5;spacingRight=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="240" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="xPJGD_dAy60tWsDDAJ8i-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPJGD_dAy60tWsDDAJ8i-8" target="xPJGD_dAy60tWsDDAJ8i-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPJGD_dAy60tWsDDAJ8i-8" value="Data Ingestion&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;pyshark: Primary tool for capturing raw network packets&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Apache Kafka: Primary use for creating an intance on docker&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Apache Airflow: Primary use for coordinating data ingestion processes&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="240" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="xPJGD_dAy60tWsDDAJ8i-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPJGD_dAy60tWsDDAJ8i-9" target="xPJGD_dAy60tWsDDAJ8i-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPJGD_dAy60tWsDDAJ8i-9" value="Data Processing&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Pandas/Numpy: Primary tool for data transformations&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Sciket-Learn: Python Library for creating traditional ML models&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;PyTorch: Python Library for creating Deep Learning models&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="680" y="160" width="240" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="xPJGD_dAy60tWsDDAJ8i-10" value="Data Storage&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;InfluxDB: Database for storing Time-series Data&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;MinIO:Data Storage for raw package captures for further analysis&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;MySql: Relational database for storing structured data such as anomalies and alerts&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="160" width="240" height="440" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
