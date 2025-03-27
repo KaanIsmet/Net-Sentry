@@ -1,9 +1,77 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="cDwO77WZMQ6dYricSrSj">
-    <mxGraphModel>
+    <mxGraphModel dx="1364" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-1" value="Computer" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="80" width="300" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-2" value="Command Line Interface" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="120" width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-3" value="«Component»&lt;br&gt;&lt;b&gt;Python CLI Application&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="125" y="180" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-4" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="Ry9AGESiVEpz2vFBEfBp-3">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-6" value="API Server" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="80" width="300" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-7" value="«EC2»&lt;br&gt;&lt;b&gt;Python Server Application&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="570" y="180" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-8" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="Ry9AGESiVEpz2vFBEfBp-7">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-12" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;" edge="1" target="Ry9AGESiVEpz2vFBEfBp-14" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="225" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-13" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;endSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="Ry9AGESiVEpz2vFBEfBp-14" parent="1" source="Ry9AGESiVEpz2vFBEfBp-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="225" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-14" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="220" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-15" value="Streaming &amp;amp; Orchestration" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="960" y="80" width="300" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-16" value="Database Storage" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="960" y="390" width="300" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-23" value="«MSK»&lt;br&gt;&lt;b&gt;Apache Kafka&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="120" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-24" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="Ry9AGESiVEpz2vFBEfBp-23">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-25" value="«S3»&lt;br&gt;&lt;b&gt;MySQL&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="465" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-26" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="Ry9AGESiVEpz2vFBEfBp-25">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-34" value="«MWAA»&lt;br&gt;&lt;b&gt;Apache Airflow&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="220" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-35" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="Ry9AGESiVEpz2vFBEfBp-34">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
