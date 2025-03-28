@@ -22,14 +22,14 @@
           <mxGeometry x="520" y="80" width="300" height="240" as="geometry" />
         </mxCell>
         <mxCell id="Ry9AGESiVEpz2vFBEfBp-7" value="«EC2»&lt;br&gt;&lt;b&gt;Python Server Application&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="570" y="180" width="180" height="90" as="geometry" />
+          <mxGeometry x="580" y="180" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Ry9AGESiVEpz2vFBEfBp-8" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="Ry9AGESiVEpz2vFBEfBp-7">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ry9AGESiVEpz2vFBEfBp-12" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;" edge="1" target="Ry9AGESiVEpz2vFBEfBp-14" parent="1">
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-12" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="Ry9AGESiVEpz2vFBEfBp-14" parent="1" source="Ry9AGESiVEpz2vFBEfBp-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="570" y="225" as="sourcePoint" />
           </mxGeometry>
@@ -49,7 +49,7 @@
           <mxGeometry x="960" y="390" width="300" height="240" as="geometry" />
         </mxCell>
         <mxCell id="Ry9AGESiVEpz2vFBEfBp-23" value="«MSK»&lt;br&gt;&lt;b&gt;Apache Kafka&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="120" width="180" height="90" as="geometry" />
+          <mxGeometry x="1020" y="220" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Ry9AGESiVEpz2vFBEfBp-24" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="Ry9AGESiVEpz2vFBEfBp-23">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -65,12 +65,66 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ry9AGESiVEpz2vFBEfBp-34" value="«MWAA»&lt;br&gt;&lt;b&gt;Apache Airflow&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="220" width="180" height="90" as="geometry" />
+          <mxGeometry x="1020" y="120" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Ry9AGESiVEpz2vFBEfBp-35" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="Ry9AGESiVEpz2vFBEfBp-34">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-36" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;" edge="1" target="Ry9AGESiVEpz2vFBEfBp-38" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="165" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-37" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;endSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="Ry9AGESiVEpz2vFBEfBp-38" parent="1" source="Ry9AGESiVEpz2vFBEfBp-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="165" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-48" value="&lt;b&gt;Orchestrate Workflow&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ry9AGESiVEpz2vFBEfBp-37">
+          <mxGeometry x="0.1441" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-38" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" vertex="1" parent="1">
+          <mxGeometry x="995" y="160" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-39" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;" edge="1" target="Ry9AGESiVEpz2vFBEfBp-41" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="265" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-40" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;endSize=10;" edge="1" target="Ry9AGESiVEpz2vFBEfBp-41" parent="1" source="Ry9AGESiVEpz2vFBEfBp-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="265" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-49" value="&lt;b&gt;Logs &amp;amp; Messages&lt;/b&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;on Anomalies&lt;/b&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ry9AGESiVEpz2vFBEfBp-40">
+          <mxGeometry x="-0.0123" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-41" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" vertex="1" parent="1">
+          <mxGeometry x="995" y="260" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-45" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" target="Ry9AGESiVEpz2vFBEfBp-47" parent="1" source="Ry9AGESiVEpz2vFBEfBp-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="355" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-46" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;endSize=10;" edge="1" target="Ry9AGESiVEpz2vFBEfBp-47" parent="1" source="Ry9AGESiVEpz2vFBEfBp-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="355" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-50" value="&lt;b&gt;Results from Data Pipeline&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ry9AGESiVEpz2vFBEfBp-46">
+          <mxGeometry x="0.5727" y="3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ry9AGESiVEpz2vFBEfBp-47" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="350" width="10" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
